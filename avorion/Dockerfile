@@ -1,6 +1,7 @@
 ### 1. Установка базового образа
 FROM  --platform=$TARGETOS/$TARGETARCH ubuntu:22.04
 
+LABEL org.opencontainers.image.source https://github.com/HOZAMA/NERV-docker-game-servers
 ### 2. Настройка переменных окружения
 ENV   DEBIAN_FRONTEND noninteractive
 
