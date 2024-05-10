@@ -35,5 +35,5 @@ RUN         touch ${NSS_WRAPPER_PASSWD} ${NSS_WRAPPER_GROUP} \
 ADD         passwd.template /passwd.template
 
 ### 8. Копирование и выполнение скрипта входа
-COPY  entrypoint.sh /entrypoint.sh
+COPY  ./entrypoint.sh /entrypoint.sh
 CMD   [ "/bin/bash", "/entrypoint.sh" ]
