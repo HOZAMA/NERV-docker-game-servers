@@ -25,4 +25,4 @@ jobs:
           context: .
           file: ./avorion/Dockerfile
           push: true
-          tags: ghcr.io/${{ github.repository_owner }}/nerv-avorion:latest
+          tags: ghcr.io/${{ github.repository }}/nerv-avorion:latest
